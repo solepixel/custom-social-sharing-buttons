@@ -1,0 +1,87 @@
+
+.cssb-share-counters,
+.sidebar .widget .cssb-share-counters {
+	margin:0;
+	padding:0 1px 3px;
+	list-style:none;
+}
+	.cssb-share-counters li {
+		float:left;
+		margin: 0 9px;
+		width:62px;
+	}
+	.cssb-share-counters li:first-child { margin-left:0; }
+	.cssb-share-counters li:last-child { margin-right:0; }
+	.cssb-share-counters a {
+		display: block;
+		text-decoration:none;
+		outline:none;
+	}
+	.cssb-share-counters a span {
+		display:block;
+		text-align:center;
+		font-family:'Helvetica','Arial',sans-serif;
+		font-weight:bold;
+	}
+	.cssb-share-counters a span.cssb-counter {
+		font-size:18px;
+		line-height:44px;
+		color:#424a4f;
+		width: 62px;
+		height:50px;
+		background:url(cssb-bubble.png) 0 0 no-repeat;
+		margin-bottom:6px;
+	}
+	.cssb-share-counters a span.cssb-button {
+		color:#FFF;
+		margin:0 1px;
+		padding:4px 2px;
+		font-size:13px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 1px rgba(255,255,255,.25);
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 1px rgba(255,255,255,.25);
+		box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 1px rgba(255,255,255,.25);
+		border: solid 1px #000;
+		background: #444;
+	}
+	.cssb-share-counters .cssb-twitter-share .cssb-button {
+		border-color:#0783be;
+		background: rgb(63,172,226); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(63,172,226,1) 0%, rgba(38,166,223,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,172,226,1)), color-stop(100%,rgba(38,166,223,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(63,172,226,1) 0%,rgba(38,166,223,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(63,172,226,1) 0%,rgba(38,166,223,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(63,172,226,1) 0%,rgba(38,166,223,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(63,172,226,1) 0%,rgba(38,166,223,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3face2', endColorstr='#26a6df',GradientType=0 ); /* IE6-9 */
+	}
+	.cssb-share-counters .cssb-facebook-share .cssb-button {
+		border-color:#20345a;
+		background: rgb(60,92,155); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(60,92,155,1) 0%, rgba(59,89,152,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,92,155,1)), color-stop(100%,rgba(59,89,152,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(60,92,155,1) 0%,rgba(59,89,152,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(60,92,155,1) 0%,rgba(59,89,152,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(60,92,155,1) 0%,rgba(59,89,152,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(60,92,155,1) 0%,rgba(59,89,152,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c5c9b', endColorstr='#3b5998',GradientType=0 ); /* IE6-9 */
+	}
+	.cssb-share-counters .cssb-google-share .cssb-button {
+		border-color:#161618;
+		background: rgb(84,86,89); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(84,86,89,1) 0%, rgba(74,76,79,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(84,86,89,1)), color-stop(100%,rgba(74,76,79,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(84,86,89,1) 0%,rgba(74,76,79,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(84,86,89,1) 0%,rgba(74,76,79,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(84,86,89,1) 0%,rgba(74,76,79,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(84,86,89,1) 0%,rgba(74,76,79,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545659', endColorstr='#4a4c4f',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.cssb-share-counters:after {
+		clear:both;
+		content:' ';
+		display:table;
+	}
