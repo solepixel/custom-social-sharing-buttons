@@ -1,5 +1,5 @@
 <ul class="cssb-share-counters">
-	<li class="cssb-twitter-share"><a href="https://twitter.com/share" data-url="<?php echo esc_attr($link); ?>" target="_blank" title="Tweet" data-dims="675x230">
+	<li class="cssb-twitter-share"><a href="https://twitter.com/share?url=<?php echo urlencode($link); ?>" target="_blank" title="Tweet" data-dims="675x230">
 		<span class="cssb-counter"><?php echo $tweets; ?></span>
 		<span class="cssb-button">Tweet</span>
 	</a></li>

@@ -9,7 +9,7 @@ jQuery(function($){
 		},
 		success: function(response){
 			$('.cssb-share-buttons').html(response.html);
-			$('.cssb-share-buttons a').click(function(){
+			$('.cssb-share-buttons a, .cssb-share-popup').click(function(){
 				var url = $(this).attr('href');
 				var title = $(this).attr('title') ? $(this).attr('title') : $(this).text();
 				var dims = $(this).attr('data-dims');
