@@ -61,7 +61,8 @@ function cssb_shortcode($atts=array(), $content=NULL){
 	if($url == 'site'){
 		$link = site_url();
 	} else {
-		$link = get_permalink( $post->ID );
+		//$link = get_permalink( $post->ID );
+		$link = site_url().$_SERVER['REQUEST_URI'];
 	}
 	
 	wp_localize_script( 'cssb-script', 'cssb_share_options', array(
